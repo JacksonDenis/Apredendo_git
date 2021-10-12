@@ -1,0 +1,30 @@
+Git é um projeto desenvolvido por Linus Torvalds criador do Linux.É um software para controle de versões sendo a melhor escolha para a maioria das equipes de desenvolvimento de softaware sendo também uma das principais escolhas de desenvolvedores individuais.
+No git tem a possibilidade de criar, a qualquer momento, vários snapshots do projeto.
+Os comandos são necessarios para gerenciar os trabalhos , upar versoes novas e restaurar versoes antigas.
+Os arquicos podem estar em alguns estados: Consolidado ( commites), modificado ( modified), preparado( staged). 
+Working Directory que contém os arquivos vigentes.
+Index que funciona como uma área temporária (stage)
+HEAD que aponta para o último commit (confirmação) que você fez.
+
+Comandos para configurar nome e email:
+git config --global user.name "Ademir Mazer Junior"
+git config --global user.email ademirmazerjr@servidor.com
+
+COMANDOS:
+Criando um repositorio local git - git init
+Verificando Status - git status
+Obtendo repositorio remoto no Git - git clone /caminho/para/o/repositório
+Adicionar e Confirmar alteraçoes - git add <arquivo> , git add *
+
+Para realmente confirmar estas mudanças, isto é, consolidar no repositório local, use commit. Como boa prática, sempre com comentários, por exemplo: git commit -m “comentários das alterações”
+
+Ignorando Arquivos - Para ignorar arquivos, crie padrões dentro de um arquivo .gitignore no raiz do repositório
+Enviando alterações ao repositorio remoto - git push origin master
+
+Outros Comandos:
+git checkout
+git remote
+git branch
+git pull
+git merge
+entre outros.
